@@ -1,13 +1,18 @@
 import React from "react";
 import "../styles/Home.css"
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
   return (
     <div>
       <main>
-        <div className="logo">
+         
+          <div className="logo">
           <h1>EN ROUTE</h1>
         </div>
+         
+        
 
         <section className="mid-section">
         <div className="text">
@@ -22,13 +27,13 @@ export default function Home() {
         </div>
 
         <div className="image">
-            <img src="" alt="city picture"></img>
+            <img src="../images/main.jpg" alt="city picture"></img>
         </div>
         </section>
        
 
         <div className="btn">
-            <button className="start-btn">Get Started</button>
+            <button className="start-btn"><Link to="/index">Get Started</Link></button>
             <button className="login-btn">Login</button>
         </div>
       </main>
