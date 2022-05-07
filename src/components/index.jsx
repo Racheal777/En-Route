@@ -9,8 +9,7 @@ export default function Index() {
   return (
     <div>
         <Navbars/>
-      <Example/>
-      <HomePage/>
+      
         <About/>
       
     </div>

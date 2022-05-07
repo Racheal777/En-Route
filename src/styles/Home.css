@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     transition: all .5s ease-in;
 }
 
@@ -40,7 +40,7 @@ color: #F11313;
     
 }
 .text{
-min-width: 520px;
+width: 50%;
 padding: 1em;
 text-align: left;
 font-family: 'Sahitya';
@@ -62,8 +62,8 @@ line-height: 56px;
 
 
 .image{
-min-width: 100px;
-min-height: 350px;
+width: 40%;
+height: 350px;
 box-shadow: 0px 4px 4px rgba(227, 226, 226, 0.25), 0px 4px 4px rgba(223, 220, 220, 0.425), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px #E5E5E5, 0px 4px 4px #FFFFFF, 0px 4px 4px #E5E5E5, 0px 4px 4px #FFFFFF;
 border-radius: 53px;
 overflow-y: hidden;
@@ -80,11 +80,11 @@ overflow-y: hidden;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 420px;
     padding: 10px;
 }
 .start-btn{
-   min-width: 180px;
+   min-width: 150px;
 min-height: 60px;
 font-size: 1.3em;
 font-weight: bold;
@@ -102,7 +102,7 @@ border-radius: 18px;
 }
 
 .login-btn{
-min-width: 180px;
+min-width: 150px;
 min-height: 60px;
 font-size: 1.3em;
 font-weight: bold;
@@ -138,25 +138,33 @@ color: #9B250B;
     .mid-section{
         display: flex;
         flex-direction: column;
+        padding: 2px;
     }  
     
     .text{
-        min-width: 420px;
-padding: 1em;
+        width: 90%;
+
 
 font-size: 18px;
 
     }
     .image{
-        width: 400px;
+        width: 90%;
 height: 150px;
     }
 
     .btn{
         /* margin: 10px 17px; */
         
-        width: 450px;
+        width: 80%;
         
     }
+
+    main{
+        min-height: 50vh;
+        background-color: #F0ECE9;
+        padding: 10px 0.5em;
+        transition: all .2s ease-in;
     
+    }
 }

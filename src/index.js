@@ -4,7 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import App from './App';
-import "./styles/index.css"
+// import "./styles/index.css"
 import Index from './components';
 import Home from './components/home';
 
