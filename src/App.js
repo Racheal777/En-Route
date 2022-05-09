@@ -2,6 +2,7 @@
 import './App.css';
 import Home from './components/home';
 import Footer from './components/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Index from './components';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Navbars from './components/navbar';
