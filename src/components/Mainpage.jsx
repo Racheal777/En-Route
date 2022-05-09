@@ -25,7 +25,7 @@ export default function Mainpage() {
 
         <Row className="about">
           <h1>About Us</h1>
-          <Col sm={8}>
+          <Col sm={7}>
             <div className="about-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -90,7 +90,7 @@ export default function Mainpage() {
           <Col xs={12} md={4}>
             <div className="locations">
               <Link to="">
-                <img src="../images/Mall.jpg"></img>
+                <img src="../images/mall.jpg"></img>
                 Mall
               </Link>
             </div>
@@ -118,24 +118,24 @@ export default function Mainpage() {
           <Col xs={12} md={4}>
             <div className="locations">
               <Link to="">
-                <img src="../images/cinema.jpg"></img>
-                Cinemas
+                <img src="../images/cinema2.jpg"></img>
+                Silverbird Cinema
               </Link>
             </div>
           </Col>
           <Col xs={12} md={4}>
             <div className="locations">
               <Link to="">
-                <img src="../images/active.jpg"></img>
-                Adventure
+                <img src="../images/active2.jpg"></img>
+                Go Kart
               </Link>
             </div>
           </Col>
           <Col xs={12} md={4}>
             <div className="locations">
               <Link to="">
-                <img src="../images/beach.jpg"></img>
-                Beach
+                <img src="../images/beach4.jpg"></img>
+                Labadi Beach
               </Link>
             </div>
           </Col>
@@ -160,6 +160,14 @@ export default function Mainpage() {
                     sed do eiusmod temporincididunt ut labore et dolore magna
                     .
                   </p>
+                  <div className='icons'>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  
                   <h5>Derek</h5>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -175,6 +183,13 @@ export default function Mainpage() {
                     sed do eiusmod temporincididunt ut labore et dolore magna
                    .
                   </p>
+                  <div className='icons'>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
                   <h5>Alberta</h5>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -190,6 +205,13 @@ export default function Mainpage() {
                     sed do eiusmod temporincididunt ut labore et dolore magna
                     .
                   </p>
+                  <div className='icons'>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
                   <h5>Racheal</h5>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -199,14 +221,72 @@ export default function Mainpage() {
 
 
 
-        <Row className='events'>
+        {/* <Row className="events">
+          <h2>Events</h2>
+          <Col>
+            <Carousel variant="dark">
+              <Carousel.Item className="carouselss-item">
+                <img
+                  className="carouselss-item"
+                  src="../images/beach.jpg"
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                <div>
+                <h2>UPCOMING EVENTS</h2>
+                <h4>Vodafone Ghana Music Awards (VGMA)</h4>
+            </div>
+            <div className="btns">
+            <Button size="sm">Buy Tickets</Button>
+          </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item className="carouselss-item">
+                <img
+                  className="carouselss-item"
+                  src="../images/beach.jpg"
+                  alt="Second slide"
+                />
+                <Carousel.Caption>
+                <div>
+                <h2>UPCOMING EVENTS</h2>
+                <h4>Vodafone Ghana Music Awards (VGMA)</h4>
+            </div>
+            <div className="btns">
+            <Button size="sm">Buy Tickets</Button>
+          </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item className="carouselss-item">
+                <img
+                  className="carouselss-item"
+                  src="../images/mall2.jpg"
+                  alt="Third slide"
+                />
+                <Carousel.Caption>
+                <div>
+                <h2>UPCOMING EVENTS</h2>
+                <h4>Vodafone Ghana Music Awards (VGMA)</h4>
+            </div>
+            <div className="btns">
+            <Button size="sm">Buy Tickets</Button>
+          </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row> */}
+
+
+        <Row className='eventss'>
             <Col>
+
             <div>
                 <h2>UPCOMING EVENTS</h2>
                 <h4>Vodafone Ghana Music Awards (VGMA)</h4>
             </div>
             <div className="btns">
-            <Button size="sm">But Tickets</Button>
+            <Button size="sm">Buy Tickets</Button>
           </div>
             </Col>
         </Row>

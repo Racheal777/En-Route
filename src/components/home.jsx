@@ -1,21 +1,30 @@
 import React from "react";
-//  import "../styles/Home.css"
-import { Link } from "react-router-dom";
+ import "../styles/Home.css"
+import { Row, Col, Container, 
+  Form, FormControl, Button,
+  Carousel,
+
+} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 
 export default function Home() {
   return (
-    <div>
-      <main>
-         
+    <div className="main">
+      <Container className="mains">
+        <Row>
+          <Col>
           <div className="logo">
           <h1>EN ROUTE</h1>
         </div>
          
-        
+          </Col>
+        </Row>
 
-        <section className="mid-section">
-        <div className="text">
+        <Row>
+          <Col sm={6}>
+
+          <div className="text">
           <h2>
             A TOUR SITE FOR EASY <span>ACCESS IN THE CITY AND BEYOND</span>
           </h2>
@@ -24,19 +33,32 @@ export default function Home() {
             way around the city and allows you create memories
           </h3>
 
-        </div>
+          <h3>
+            EN ROUTE provides you with maximum resources to help navigate your
+            way around the city and allows you create memories
+          </h3>
 
-        <div className="image">
+
+        </div>
+          </Col>
+
+          <Col sm={6}>
+          <div className="image">
             <img src="../images/main.jpg" alt="city picture"></img>
         </div>
-        </section>
-       
+          </Col>
+        </Row>
 
-        <div className="btn">
+        <Row>
+          <Col>
+          <div className="btn">
             <button className="start-btn"><Link to="/index">Get Started</Link></button>
             <button className="login-btn">Login</button>
         </div>
-      </main>
+          </Col>
+        </Row>
+      </Container>
+     
     </div>
   );
 }
