@@ -233,6 +233,7 @@ background: #F13B13;
     display: flex;
     justify-content: center;
     font-size: 1em;
+    padding: 1em;
     font-weight: bold;
 }
 .eventss{

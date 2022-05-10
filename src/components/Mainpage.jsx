@@ -64,7 +64,7 @@ export default function Mainpage() {
           </Col>
           <Col xs={12} md={4}>
             <div className="locations">
-              <Link to="">
+              <Link to="/beaches">
                 <img src="../images/beach.jpg"></img>
                 Beach
               </Link>
@@ -73,7 +73,7 @@ export default function Mainpage() {
 
           <Col xs={12} md={4}>
             <div className="locations">
-              <Link to="">
+              <Link to="/hotels">
                 <img src="../images/hotel.jpg"></img>
                 Hotels
               </Link>

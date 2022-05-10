@@ -1,0 +1,95 @@
+
+.hotels{
+    background: #E5E5E5;
+    text-align: center;
+    margin: 1em auto;
+    /* width: 100%; */
+    padding: 2em;
+
+
+}
+
+.hotels h2{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 800;
+font-size: 44px;
+line-height: 77px;
+
+color: #F13B13;
+}
+
+.one-location{
+  /* width: 80%; */
+  text-align: center; 
+   
+}
+
+.one-location img{
+    width: 100%;
+}
+
+.one-location h1, h3{
+    font-family: 'Alegreya Sans SC';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+}
+
+.one-location h2{
+    font-family: 'Alegreya Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 38px;
+
+color: #51504B;
+}
+
+.one-about{
+    background: #F0ECE9;
+    padding: 2.6em;
+    text-align: center;
+    margin: 1.5em auto;
+
+
+}
+
+.one-about p{
+    margin: auto;
+    width: 60%;
+    font-family: 'Alegreya Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 38px;
+
+color: #51504B;
+
+}
+
+.middle-review{
+    padding: 1em;
+
+}
+
+.middle-review h2{
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+}
+
+.btnss{
+    margin: 1em, 14px;
+}
+/* .modal{
+    padding: 1em;
+} */

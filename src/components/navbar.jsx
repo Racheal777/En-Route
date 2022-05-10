@@ -23,10 +23,10 @@ export default function Navbarr() {
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/">About</Nav.Link>
         <NavDropdown title="Locations" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Hotels</NavDropdown.Item>
+          <NavDropdown.Item href="/hotels">Hotels</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Restaurants</NavDropdown.Item>
           <NavDropdown.Item href="#action3">Cinema</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Beach</NavDropdown.Item>
+          <NavDropdown.Item href="/beaches">Beach</NavDropdown.Item>
           <NavDropdown.Item href="#action3">Garden</NavDropdown.Item>
           <NavDropdown.Item href="#action3">Adventure</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Saloon & Spa</NavDropdown.Item>
