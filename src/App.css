@@ -159,7 +159,7 @@ color: #FFFFFF;
 }
 
 .all-locations{
-    width: 80%;
+    width: 90%;
     margin: 1em auto;
     text-align: center;
     align-items: center;
@@ -185,6 +185,11 @@ color: #FFFFFF;
     border-radius: 5px;
     background: #FFFFFF;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+    visibility: visible;
+animation-delay: 0.1s;
+animation-name: zoomIn;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+margin-bottom: 30px;
 }
 
 .locations a{

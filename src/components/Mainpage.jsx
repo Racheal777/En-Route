@@ -23,12 +23,12 @@ const VIDEO_HEIGHT = 580;
         <iframe
             width={VIDEO_WIDTH}
             height={VIDEO_HEIGHT}
-            src="https://youtu.be/6qoFc1iKRvg?autoplay=1&controls=0&mute=1&loop=1&modestbranding=1&showinfo=0&start=50&enablejsapi=1&&widgetid=3"
+            src="https://youtube.com/embed/6qoFc1iKRvg?autoplay=1&controls=0&mute=1&loop=1&modestbranding=1&showinfo=0&start=50&enablejsapi=1&&widgetid=3"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
     
-             
+    {/* https://www.youtube.com/watch?v=6qoFc1iKRvg */}
                 <div className="tagline">
                   <h2>Discover The City</h2>
                   <button>Add a bucket list</button>
