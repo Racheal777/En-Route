@@ -5,7 +5,7 @@ import "../App.css"
 export default function Navbarr() {
   return (
     <div>
-        <nav>
+        <nav className='sticky'>
 
       
     <Navbar  expand="lg" sticky="top" className='navy' >

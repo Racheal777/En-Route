@@ -8,7 +8,7 @@ import Mainpage from './Mainpage'
 export default function Index() {
   return (
     <div>
-        <Navbarr/>
+       
       <Mainpage/>
         {/* <About/> */}
       
