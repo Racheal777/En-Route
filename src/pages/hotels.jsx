@@ -34,7 +34,8 @@ export default function Hotels() {
               <div className="locations" >
                 <Link to={`/hotel/${hotel.id}`} >
                   <img src={hotel.image}></img>
-                  {hotel.HotelName}
+                  <h2>{hotel.HotelName}</h2>
+                  <p>{hotel.Location}</p>
                   <div className='icons'>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
