@@ -190,6 +190,7 @@ animation-delay: 0.1s;
 animation-name: zoomIn;
 box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
 margin-bottom: 30px;
+text-align: center;
 }
 
 .locations a{
@@ -200,6 +201,27 @@ font-size: 1.2em;
 text-decoration: none;
 }
 
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  
+}  
+.img  
+{  
+        height: 260px;
+        width:100%  
+}  
+
+.middle-about{
+    width: 80%;
+    margin: 1em auto;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.2em;
+    color: #565555;
+    /* background-color: #e8e5e5;   */
+}
 .subscribe{
     width: 100%;
     background: linear-gradient(0deg, rgba(27, 22, 22, 0.669), rgba(25, 16, 14, 0.613)), url('../public/images/mall2.jpg'), #C4C4C4;

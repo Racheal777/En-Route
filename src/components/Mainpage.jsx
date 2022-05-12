@@ -6,6 +6,7 @@ import { Row, Col, Container,
 } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import Navbarr from './navbar'
+import OwlCarousels from './owlCarousel';
 
 export default function Mainpage() {
   const VIDEO_WIDTH = 1920;
@@ -126,6 +127,12 @@ const VIDEO_HEIGHT = 580;
               />
               <Button variant="outline-success bg-white">Search</Button>
             </Form>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+          <OwlCarousels/>
           </Col>
         </Row>
 
