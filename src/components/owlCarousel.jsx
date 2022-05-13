@@ -74,7 +74,7 @@ export default function OwlCarousels() {
           autoplay ={true} > 
           <Col >
           <div className="locations">
-              <Link to="">
+              <Link to = ''>
                 <img className="img"  src="../images/hotel.jpg"></img>
                 Alisa Hotel
               </Link>

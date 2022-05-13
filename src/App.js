@@ -10,6 +10,7 @@ import Navbars from './components/navbar';
 import Hotels from './pages/hotels';
 import Beaches from './pages/beaches';
 import Hotel from './pages/hotel';
+import Homepage from './components/homepage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 {/* <React.StrictMode> */}
   <Routes>
     <Route path='/' element={<Home/>}></Route>
+    {/* <Route path='/' element={<Homepage/>}></Route> */}
     <Route path='/index' element={<Index/>}></Route>
     <Route path='/hotels' element={<Hotels/>}></Route>
 

@@ -6,7 +6,7 @@
     box-sizing: border-box;
     /* overflow-x: hidden; */
     /* font-family:'Poppins'; */
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     transition: all .5s ease-in;
 }
 html {
@@ -20,11 +20,6 @@ html {
     overflow: hidden;
     z-index: 20;
     visibility: inherit;
-   
-    
-    
-    
-
 }
 
 /* body {
@@ -136,3 +131,43 @@ color: #9B250B;
 }
 
 /*  */
+
+.bg-image{
+    background-image: url('../../public/images/mains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .mid-sect{
+    display: flex;
+} */
+
+.top-btnss{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.home{
+    padding: 0;
+    margin: 0;
+
+}
+
+.mid-sect{
+    color: white;
+    display: flex;
+    /* padding: 10px 2em; */
+    justify-content: center;
+
+}
+
+.mid-sect img{
+    width: 100%;
+}
+
+.mid-sect p{
+    font-size: 15px;
+}
